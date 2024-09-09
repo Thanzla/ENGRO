@@ -1,0 +1,60 @@
+*
+{
+    margin: 0%;
+    padding:0%;
+    color: rgb(103, 185, 48);
+   text-decoration: none;
+}
+body
+{
+    background-image: linear-gradient(rgba(128, 128, 128, 1),  rgba(0, 0, 0, 1));
+
+}
+.a
+{
+    height: 80vh;
+    width: 80vw;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+}
+.a .col-3
+{
+    /* border: 2px solid  rgb(255, 255, 255); */
+    border-radius: 10px;
+    background:white ;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 20px;
+   cursor: pointer;
+  
+}
+.b
+{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+    
+}
+.a .col-3:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+    background-color:cadetblue;
+    color: black;
+}
+@media screen and (max-width: 1095px) {
+    .a .col-3 {
+        /* border: 2px solid rgb(255, 255, 255); */ /* Commented out, remove if not needed */
+        border-radius: 10px;
+        background-color: white; /* Use 'background-color' for clarity */
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+}
+
+
